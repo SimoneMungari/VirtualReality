@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Castello/Scenes/Castello.unity
+- path: Assets/Foresta/Scenes/BrightDay.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
