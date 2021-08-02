@@ -20,13 +20,13 @@ public class CastelloPortone : MonoBehaviour
     public void React()
     {
         Debug.Log("aaaa");
-        if (SceneManager.GetActiveScene().name == "scena")
+        if (SceneManager.GetActiveScene().name == "BrightDay")
         {
-            SceneManager.LoadScene("Scenes/Castello");
+            SceneManager.LoadScene("Castello/Scenes/Castello");
         }
         else if (SceneManager.GetActiveScene().name == "Castello")
         {
-            SceneManager.LoadScene("Scenes/scena");
+            SceneManager.LoadScene("Foresta/Scenes/BrightDay");
         }
         
     }

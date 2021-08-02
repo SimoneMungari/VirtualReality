@@ -18,19 +18,30 @@ public class PlayerAction : MonoBehaviour
     {
         if (Input.GetKeyDown("f")) //pulsante sinistro
         {
+            RaycastHit[] hits;
+            hits = Physics.RaycastAll(transform.position, transform.forward, 10.0f);
+            for (int i = 0; i < hits.Length; i++)
+            {
+                GameObject hitObject = hits[i].transform.gameObject;
+                if (hitObject.GetComponent<CastelloPortone>() != null)
+                {
+                    Debug.Log("hittato");
+                    hitObject.GetComponent<CastelloPortone>().React();
+                }
+            }
 
-            RaycastHit hit;
-
+            /*RaycastHit hit;
             if (Physics.Raycast(transform.position, Vector3.forward, out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
                 Debug.Log(hitObject);
                 
-                if (hitObject.GetComponent<CastelloPortone>() != null && hit.distance < 5f)
+                if (hitObject.GetComponent<CastelloPortone>() != null && hit.distance < 10f)
                 {
+                    Debug.Log("hittato");
                     hitObject.GetComponent<CastelloPortone>().React();
                 }
-            }
+            }*/
         }
     }
 }
