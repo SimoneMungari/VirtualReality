@@ -62,6 +62,40 @@
      <None Include="Assets\Foresta\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Foresta\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Foresta\Shaders\SupercyanShader.shader" />
+<<<<<<< HEAD
+=======
+     <None Include="Assets\Zona Proibita\RustyBlackShovel\readme_first.txt" />
+ <Reference Include="Unity.Timeline.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.VSCode.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Timeline">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.CollabProxy.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Rider.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PlasticSCM.Editor">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/unityProjects/VirtualReality/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+>>>>>>> 3cd5466733073f066f5adb842a6d4086014f3422
  <Reference Include="UnityEngine">
  <HintPath>/home/simone/Unity/Hub/Editor/2019.4.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>

@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Castello/Scenes/Castello.unity
+=======
+- path: Assets/Zona Proibita/Scenes/ZonaProibita.unity
+>>>>>>> 3cd5466733073f066f5adb842a6d4086014f3422
   isLoaded: 1
   isActive: 1
   isSubScene: 0
