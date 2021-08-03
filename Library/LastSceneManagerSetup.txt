@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Foresta/Scenes/MoodyNight.unity
+- path: Assets/Zona Proibita/Scenes/ZonaProibita.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
