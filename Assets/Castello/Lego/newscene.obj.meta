@@ -1,33 +1,9 @@
 fileFormatVersion: 2
-guid: f1cc7ef79fb85a04580b3d701c87582c
+guid: 7ff3fc0bd99071ee0b126fad185dfc96
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Iron_Grey
-    second: {fileID: -5767472351450708203, guid: 1d5c5af745e9bb148a0c8d3108b8fd89,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood_Dark
-    second: {fileID: 9036992374869631830, guid: d2d7bcedfd9c2804ba2e673cd7c13ca4,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood_Darker
-    second: {fileID: 3590579580035318843, guid: fb9b190c0d4aae348bc055c6ca036b89,
-      type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood_Medium
-    second: {fileID: 2512964428095778526, guid: 1d5c5af745e9bb148a0c8d3108b8fd89,
-      type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 1
     materialName: 0
@@ -58,7 +34,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-    globalScale: 3
+    globalScale: 0.004
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -105,7 +81,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 3
+    globalScale: 0.004
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
