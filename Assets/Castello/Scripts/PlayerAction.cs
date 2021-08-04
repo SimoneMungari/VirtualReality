@@ -18,23 +18,23 @@ public class PlayerAction : MonoBehaviour
     {
         if (Input.GetKeyDown("f")) //pulsante sinistro
         {
-            RaycastHit[] hits;
+            /*RaycastHit[] hits;
             hits = Physics.RaycastAll(transform.position, transform.forward, 10.0f);
             for (int i = 0; i < hits.Length; i++)
             {
                 GameObject hitObject = hits[i].transform.gameObject;
                 if (hitObject.GetComponent<CastelloPortone>() != null)
                 {
-                    Debug.Log("hittato");
                     hitObject.GetComponent<CastelloPortone>().React();
                 }
-                if(hitObject.GetComponent<SwitchProibiitaForesta>() != null)
-                {Debug.Log("cambiaamiko");
-                    hitObject.GetComponent<SwitchProibiitaForesta>().React();
+                else if (hitObject.GetComponent<NPC>() != null)
+                {
+                	Debug.Log("hitted npc");
+                    hitObject.GetComponent<NPC>().React();
                 }
-            }
+            }*/
 
-            /*RaycastHit hit;
+            RaycastHit hit;
             if (Physics.Raycast(transform.position, Vector3.forward, out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
@@ -45,7 +45,12 @@ public class PlayerAction : MonoBehaviour
                     Debug.Log("hittato");
                     hitObject.GetComponent<CastelloPortone>().React();
                 }
-            }*/
+                else if (hitObject.GetComponent<NPC>() != null && hit.distance < 10f)
+                {
+                	Debug.Log("hittato npc");
+                    hitObject.GetComponent<NPC>().React();
+                }
+            }
         }
     }
 }

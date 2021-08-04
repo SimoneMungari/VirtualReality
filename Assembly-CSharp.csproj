@@ -37,10 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Castello\Scripts\CastelloPortone.cs" />
+     <Compile Include="Assets\Castello\Scripts\NPC.cs" />
      <Compile Include="Assets\Castello\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Castello\Scripts\PlayerAction.cs" />
      <Compile Include="Assets\Castello\Scripts\RelativeMovement.cs" />
-     <Compile Include="Assets\Castello\Scripts\SwitchProibiitaForesta.cs" />
      <None Include="Assets\Foresta\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Foresta\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Foresta\Shaders\SupercyanShader.shader" />
