@@ -44,7 +44,9 @@
      <None Include="Assets\Foresta\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Foresta\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Foresta\Shaders\SupercyanShader.shader" />
+     <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_PBR.shader" />
      <None Include="Assets\Zona Proibita\RustyBlackShovel\readme_first.txt" />
+     <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_Toon.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.29f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -4,4 +4,5 @@ Library/StateCache/
 Library/ShaderCache/
 Library/PackageCache/
 Temp/
+*.log
 *.meta*
