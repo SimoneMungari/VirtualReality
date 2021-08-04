@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Foresta/Scenes/BrightDay.unity
     guid: 106025b4713992744bb2e8999d6a3608
+  - enabled: 1
+    path: Assets/Zona Proibita/Scenes/ZonaProibita.unity
+    guid: 416d320355dd50e4c95a614e4c825137
   m_configObjects: {}

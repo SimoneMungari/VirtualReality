@@ -28,6 +28,10 @@ public class PlayerAction : MonoBehaviour
                     Debug.Log("hittato");
                     hitObject.GetComponent<CastelloPortone>().React();
                 }
+                if(hitObject.GetComponent<SwitchProibiitaForesta>() != null)
+                {Debug.Log("cambiaamiko");
+                    hitObject.GetComponent<SwitchProibiitaForesta>().React();
+                }
             }
 
             /*RaycastHit hit;
