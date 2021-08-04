@@ -3,4 +3,5 @@ Library/TempArtifacts/
 Library/StateCache/
 Library/ShaderCache/
 Library/PackageCache/
+Temp/
 *.meta*
