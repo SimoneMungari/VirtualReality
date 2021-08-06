@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class NPC : MonoBehaviour
 {
+    public Dialogue dialogue;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +19,7 @@ public class NPC : MonoBehaviour
     }
 
     public void React()
-    {
-        
+    {Debug.Log("REAGISCE");
+        dialogue.StartDialogue();
     }
 }

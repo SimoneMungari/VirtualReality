@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Castello\Scripts\CastelloPortone.cs" />
+     <Compile Include="Assets\Castello\Scripts\Dialogue.cs" />
      <Compile Include="Assets\Castello\Scripts\NPC.cs" />
      <Compile Include="Assets\Castello\Scripts\OrbitCamera.cs" />
      <Compile Include="Assets\Castello\Scripts\PlayerAction.cs" />
