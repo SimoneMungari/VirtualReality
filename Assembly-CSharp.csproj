@@ -36,16 +36,28 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Castello\Scripts\BoxDialogue.cs" />
      <Compile Include="Assets\Castello\Scripts\CastelloPortone.cs" />
      <Compile Include="Assets\Castello\Scripts\Dialogue.cs" />
+     <Compile Include="Assets\Castello\Scripts\DialogueController.cs" />
+     <Compile Include="Assets\Castello\Scripts\GameEvent.cs" />
+     <Compile Include="Assets\Castello\Scripts\IGameManager.cs" />
+     <Compile Include="Assets\Castello\Scripts\ManagerStatus.cs" />
+     <Compile Include="Assets\Castello\Scripts\Managers.cs" />
+     <Compile Include="Assets\Castello\Scripts\Messenger.cs" />
      <Compile Include="Assets\Castello\Scripts\NPC.cs" />
      <Compile Include="Assets\Castello\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\Castello\Scripts\Person.cs" />
      <Compile Include="Assets\Castello\Scripts\PlayerAction.cs" />
+     <Compile Include="Assets\Castello\Scripts\Quest.cs" />
+     <Compile Include="Assets\Castello\Scripts\QuestManager.cs" />
      <Compile Include="Assets\Castello\Scripts\RelativeMovement.cs" />
      <None Include="Assets\Foresta\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Foresta\Shaders\SupercyanShaderLighting.cginc" />
+     <None Include="Assets\Castello\Dialogues\2.txt" />
      <None Include="Assets\Foresta\Shaders\SupercyanShader.shader" />
      <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_PBR.shader" />
+     <None Include="Assets\Castello\Dialogues\1.txt" />
      <None Include="Assets\Zona Proibita\RustyBlackShovel\readme_first.txt" />
      <None Include="Assets\Polytope Studio\Lowpoly Medieval Characters\Sources\Shaders\PT_Medieval_Armors_Shader_Toon.shader" />
     <Reference Include="UnityEngine">
@@ -579,6 +591,9 @@
     <Reference Include="Unity.Timeline.Editor">
         <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+        <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -596,6 +611,12 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+        <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.Sysroot.Linux_x86_64.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.SysrootPackage.Editor">
+        <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.SysrootPackage.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:/Users/zgmos/OneDrive/Desktop/Università/VR/progetto/VirtualReality/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>

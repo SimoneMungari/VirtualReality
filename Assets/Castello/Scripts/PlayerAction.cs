@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerAction : MonoBehaviour
 {
+    private bool dialogueStarted;
     // Start is called before the first frame update
     void Start()
     {
@@ -35,22 +36,32 @@ public class PlayerAction : MonoBehaviour
             }*/
 
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, Vector3.forward, out hit))
+            if (Physics.Raycast(transform.position, transform.forward, out hit))
             {
                 GameObject hitObject = hit.transform.gameObject;
-                Debug.Log(hitObject);
-                
+                //Debug.Log(hitObject);
+                //Debug.Log(hit.distance);
                 if (hitObject.GetComponent<CastelloPortone>() != null && hit.distance < 10f)
                 {
-                    Debug.Log("hittato");
+                    //Debug.Log("hittato");
                     hitObject.GetComponent<CastelloPortone>().React();
                 }
                 else if (hitObject.GetComponent<NPC>() != null && hit.distance < 10f)
                 {
-                	Debug.Log("hittato npc");
-                    hitObject.GetComponent<NPC>().React();
+                	//Debug.Log("hittato npc");
+                    //hitObject.GetComponent<NPC>().StartDialogue();
+                    
+                }
+                else if (hitObject.GetComponent<Person>() != null && hit.distance < 10f)
+                {
+                    if(!dialogueStarted)
+                        hitObject.GetComponent<Person>().StartDialogue();
                 }
             }
         }
+    }
+    public void setDialogueStarted(bool var)
+    {
+        dialogueStarted = var;
     }
 }

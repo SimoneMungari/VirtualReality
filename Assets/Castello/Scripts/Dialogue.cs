@@ -35,7 +35,8 @@ public class Dialogue : MonoBehaviour
     }
 
     public void StartDialogue()
-    {Debug.Log("INIZIO CONVERSAZIONE");
+    {
+        Debug.Log("INIZIO CONVERSAZIONE");
         gameObject.SetActive(true);
         index = 0;
         StartCoroutine(TypeLine());

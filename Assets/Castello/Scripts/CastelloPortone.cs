@@ -19,7 +19,6 @@ public class CastelloPortone : MonoBehaviour
 
     public void React()
     {
-        Debug.Log("aaaa");
         if (SceneManager.GetActiveScene().name == "BrightDay")
         {
             SceneManager.LoadScene("Castello/Scenes/Castello");
